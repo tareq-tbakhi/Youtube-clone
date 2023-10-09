@@ -1,0 +1,28 @@
+.profile-pic{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.text-box{
+  border: none;
+  width: 300px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+button{
+  border: none;
+  color: white;
+  background-color: rgb(83, 143, 255);
+  border-radius: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-weight: bold;
+}
