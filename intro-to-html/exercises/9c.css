@@ -1,0 +1,9 @@
+.box{
+  width: 300px;
+  border-color: rgb(205, 205, 205);
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
