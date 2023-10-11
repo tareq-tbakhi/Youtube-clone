@@ -1,0 +1,68 @@
+div{
+  width: 200px;
+  box-shadow: 0px 0px 5px grey;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+.oliver{
+  width: 200px;
+  height: 200px;
+  object-position: right;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.rex{
+  width: 200px;
+  height: 200px;
+  object-position: middle;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.mimi{
+  width: 200px;
+  height: 200px;
+  object-position: middle;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name{
+  font-family: arial;
+  margin-top: 0px;
+  font-size: 18px;
+  margin-left: 8px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.friends{
+  margin-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  color: grey;
+  font-family: arial;
+
+}
+
+button{
+  background-color: rgb(85, 85, 253);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  margin-left: 3px;
+  margin-top: 0px;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-family: arial;
+  cursor: pointer;
+
+}
