@@ -14,8 +14,7 @@
       }
 
       .thumbnail{
-        width: 300px;  
-        display: block;
+        width: 100%;
       }
 
       .search-bar{
@@ -31,7 +30,6 @@
       }
 
       .video-preview{
-        width: 300px;
         display: inline-block;
         vertical-align: top;
         margin-right: 15px;
@@ -62,12 +60,80 @@
         margin-bottom: 4px;
       }
 
+      .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      }
+
 
     </style>
   </head>
 
   <body>
     <input class="search-bar" type="text" placeholder="Search">
+
+
+    <div class="video-grid">
+
+      
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+        </div>
+       
+        <div class="video-info">      
+        
+          <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#8226; 6 months ago
+          </p>
+      </div>
+
+      </div>
+     
+    </div>
+
+
+
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+      </div>
+      
+      <div class="video-info-grid">
+
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+        </div>
+        
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#8226; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
 
 
     <div class="video-preview">
@@ -100,6 +166,62 @@
 
 
 
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+      </div>
+      
+      <div class="video-info-grid">
+
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+        </div>
+        
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#8226; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+        </div>
+       
+        <div class="video-info">      
+        
+          <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#8226; 6 months ago
+          </p>
+      </div>
+
+      </div>
+     
+    </div>
+
 
 
     <div class="video-preview">
@@ -126,10 +248,9 @@
           </p>
         </div>
       </div>
-
-
     </div>
 
+    </div>
 
   </body>
 
