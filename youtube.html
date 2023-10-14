@@ -37,15 +37,10 @@
         margin-right: 15px;
       }
 
-      .channel-picture{
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
 
-      .video-info{
-        display: inline-block;
-        width: 200px;
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
       .profile-picture{
@@ -81,7 +76,7 @@
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
         </div>
@@ -113,21 +108,25 @@
         <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
       </div>
       
-      <div class="channel-picture">
-        <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+      <div class="video-info-grid">
+
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+        </div>
+        
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#8226; 4 years ago
+          </p>
+        </div>
       </div>
-      
-      <div class="video-info">
-        <p class="video-title">
-          Try Not To Laugh Challenge #9
-        </p>
-        <p class="video-author">
-          Markiplier
-        </p>
-        <p class="video-stats">
-          19M views &#8226; 4 years ago
-        </p>
-      </div>
+
 
     </div>
 
