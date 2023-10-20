@@ -32,6 +32,12 @@
 
 .search-bar{
   flex: 1;
+  height: 34px;
+}
+
+.search-bar::placeholder{
+  padding-left: 7px;
+  font-family: Roboto, Arial;
 }
 .search-button{
   height: 40px;
