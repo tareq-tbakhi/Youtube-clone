@@ -27,6 +27,7 @@
   max-width: 500px;
   display: flex;
   align-items: center;
+  width: 0;
 }
 
 .search-bar{
@@ -76,6 +77,27 @@
 }
 
 .right-section{
-  background-color: lightblue;
-  width: 200px;
+  display: flex;
+  width: 180px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload-icon{
+  height: 24px;
+}
+
+.youtube-apps-icon{
+  height: 24px;
+}
+
+.notifications-icon{
+  height: 24px;
+}
+
+.user-picture{
+  height: 32px;
+  border-radius: 16px;
 }
