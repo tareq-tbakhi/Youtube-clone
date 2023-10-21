@@ -1,0 +1,13 @@
+.flex-box{
+  display: flex;
+}
+
+.lightblue-section{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.lightpink-section{
+  background-color: lightpink;
+  width: 75px;
+}
