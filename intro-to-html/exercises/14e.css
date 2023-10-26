@@ -1,0 +1,70 @@
+div{
+  font-family: arial;
+}
+
+body{
+  background-color: black;
+  height: 2000px;
+}
+
+
+.header{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.oliver-picture{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name{
+  color: black;
+  font-weight: bold;
+}
+
+.adding-button{
+  background-color: rgb(50, 113, 202);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+
+.message-button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
