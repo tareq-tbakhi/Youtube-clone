@@ -24,6 +24,20 @@
 
 .thumbnail-row{
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
+  font-family: roboto,arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
 }
 
 .video-author,
