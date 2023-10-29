@@ -1,0 +1,27 @@
+body{
+  height: 3000px;
+}
+
+
+.container{
+  position: relative;
+  display: inline-block;
+  position: relative;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+
+.sale{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+  padding: 7px;
+}
