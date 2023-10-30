@@ -11,6 +11,10 @@
   margin-bottom: 10px;
 }
 
+.video-link{
+  text-decoration: none;
+  color: black;
+}
 
 .video-info-grid{
   display: grid;
