@@ -54,6 +54,11 @@
   margin-bottom: 4px;
 }
 
+.video-author-link{
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
