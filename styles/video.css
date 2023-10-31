@@ -65,3 +65,56 @@
   column-gap: 16px;
   row-gap: 40px;
 }
+
+.profile-picture-container{
+  position: relative;
+}
+
+.channel-tooltip{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  border-radius: 6px;
+  top: 45px;
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+
+
+.channel-picture-tooltip{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 30px ;
+  margin-right: 8px;
+}
+
+.channel-name-tooltip{
+  font-family: roboto, arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.channel-subscribers-tooltip{
+  font-family: roboto, arial;
+  font-size: 13px;
+  color: grey;
+}
+
+.profile-picture-container:hover .channel-tooltip{
+  opacity: 1;
+}
+
