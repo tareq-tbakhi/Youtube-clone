@@ -66,6 +66,18 @@
   row-gap: 40px;
 }
 
+@media (max-width:750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .profile-picture-container{
   position: relative;
 }
@@ -90,8 +102,6 @@
   transition: opacity 0.15s;
 }
 
-
-
 .channel-picture-tooltip{
   width: 50px;
   height: 50px;
@@ -101,7 +111,6 @@
 }
 
 .channel-name-tooltip{
-  font-family: roboto, arial;
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 4px;
@@ -109,7 +118,6 @@
 }
 
 .channel-subscribers-tooltip{
-  font-family: roboto, arial;
   font-size: 13px;
   color: grey;
 }
