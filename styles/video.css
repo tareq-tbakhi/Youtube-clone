@@ -1,7 +1,8 @@
+/* this is a comment */
+
 .thumbnail{
   width: 100%;
 }
-
 
 .video-title{
   margin-top: 0px;
@@ -72,11 +73,28 @@
   }
 }
 
+@media (min-width:749px), (max-width:999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media (min-width:1000px) {
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .video-title{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
 }
+
+
 
 .profile-picture-container{
   position: relative;
